@@ -15,4 +15,10 @@ go run main.go
 go test ./...
 ```
 
+### Features
+
+- `food_service` Shows how one can mock functions in tests making it so a function is just a variable and in the test you can reassign this function to any function you choose. 
+- `robot_service` Shows how one can mock functions in tests using dependency injection in the form of passing the function to be used as a function parameter. 
+- `user_service` Shows how one can mock functions using interfaces. Similar to to the dependency injection example however makes use of interfaces for the function itself versus simply passing the function into another function.
+
 Simply review the code as well for comments explaining each part more. 
